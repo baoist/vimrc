@@ -81,3 +81,8 @@ let clj_paren_rainbow = 1
 let clj_want_gorilla = 1
 
 let vimclojure#NailgunClient = "/home/brad/vimclojure-2.1.2/ng"
+
+autocmd VimEnter * NERDTree
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
