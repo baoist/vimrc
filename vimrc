@@ -57,8 +57,12 @@ endif
 set nocompatible
 
 set guifont=Monaco
+set shiftwidth=2
+set expandtab
 set tabstop=2
 set autoindent
+
+retab
 
 syntax enable
 set syntax=automatic
@@ -80,7 +84,7 @@ let clj_paren_rainbow = 1
 
 let clj_want_gorilla = 1
 
-let vimclojure#NailgunClient = "/home/brad/vimclojure-2.1.2/ng"
+let vimclojure#NailgunClient = "/home/brad/Documents/vimclojure-2.1.2/ng"
 
 autocmd VimEnter * NERDTree
 
